@@ -1,0 +1,33 @@
+*Environment Setup*
+
+For this lab, the following setup was used:
+
+AWS Service: Amazon EC2
+
+AMI (Operating System): Amazon Linux 2 (Free Tier eligible)
+
+Instance Type: t2.micro (1 vCPU, 1 GB RAM)
+
+Storage: 8 GB (General Purpose SSD)
+
+Security Group: Allowed inbound HTTP (port 80) HTTPS (port 443) and SSH (port 22)
+
+Key Pair: Created for secure SSH access
+-----------------------------------------------------------------------------------------
+
+Step 1: Launch EC2 Instance
+
+Logged in to the AWS Management Console and opened the EC2 service.
+
+Clicked on Launch Instance.
+
+Selected Amazon Linux 2 AMI as the base image.
+
+Selected t2.micro as the instance type (Free Tier).
+
+Configured security group rules to allow
+
+In the User Data section, pasted the setup script to automatically install and configure NGINX and PHP on launch.
+
+Launched the instance successfully.
+
